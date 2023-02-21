@@ -43,9 +43,9 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
-void sort_deck(deck_node_t **deck);
+/***void sort_deck(deck_node_t **deck);
 void print_deck(const deck_node_t *deck);
-deck_node_t *init_deck(const card_t cards[52]);
+deck_node_t *init_deck(const card_t cards[52]); **/
 listint_t *create_listint(const int *array, size_t size);
 void method_quick_sort(int *array, size_t size, int left, int right);
 void swap(int *array, size_t size, int a, int b);
