@@ -1,11 +1,10 @@
-
 #include "sort.h"
 
 /**
  * quick_sort - sorts an array of integers in ascending order
  *
  * @array: of elements to swap
- * @list: of the array
+ * @size: of the array
  *
  * Return: void, nothing
  */
@@ -21,7 +20,7 @@ void quick_sort(int *array, size_t size)
 
 /**
  * swap - swap numbers method
- * 
+ *
  * @array: of list of elements
  * @size: of array
  * @a: varieble
@@ -44,7 +43,8 @@ void swap(int *array, size_t size, int a, int b)
 
 /**
  * method_quick_sort - sorting function
- * @arraay: list of elements
+ *
+ * @array: list of elements
  * @size: of array
  * @left: first array data/element
  * @right: last array data/element
