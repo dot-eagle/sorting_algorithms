@@ -51,7 +51,7 @@ void method_quick_sort(int *array, size_t size, int left, int right);
 void swap(int *array, size_t size, int a, int b);
 int max_element(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
-int lomuto_partision(int *array, size_t size, int first_elmt, int last_elmt);
+int lomuto_partition(int *array, size_t size, int first_elmt, int last_elmt);
 int *max_length(int *array, unsigned int size);
 void quick_sort_hoare(int *array, size_t size);
 
