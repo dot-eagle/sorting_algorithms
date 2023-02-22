@@ -53,6 +53,7 @@ int max_element(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 int lomuto_partition(int *array, size_t size, int first_elmt, int last_elmt);
 int *max_length(int *array, unsigned int size);
+void swap_node(listint_t **list, listint_t *node, int fwd);
 void quick_sort_hoare(int *array, size_t size);
 
 #endif /* _SORT_H_ */
